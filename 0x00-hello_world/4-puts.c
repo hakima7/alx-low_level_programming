@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  *this program is about using puts instead of printf
- *main - main is the entry funoyion to the program
- *return: we must return witha 0
+ * main - A program that prints a line with puts function
+ * Return: 0 (success)
  */
 int main(void)
 {
