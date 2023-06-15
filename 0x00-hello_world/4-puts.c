@@ -2,7 +2,7 @@
 /**
  *this program is about using puts instead of printf
  * main - A program that prints a line with puts function
- * Return: 0 (success)
+ * Return: we must r we must return witha 0
  */
 int main(void)
 {
