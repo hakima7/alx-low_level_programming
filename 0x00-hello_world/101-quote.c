@@ -9,7 +9,7 @@
 int main(void)
 {
 	ssize_t len;
-	char = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char *message= "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 	len = write(2, message, 59);
 	(void)len;/* To silence unused variable warning */
 	return (1);
