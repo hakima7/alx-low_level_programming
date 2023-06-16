@@ -22,15 +22,15 @@ int main(void)
 
 	if (abs(n % 10) > 5)
 	{
-	printf("%d  is greater than 5\n", n);
+	printf("%d and is greater than 5\n", n);
 	}
 	else if (abs(n % 10) == 0)
 	{
-	printf("%d is zero\n", n);
+	printf("%d and is zero\n", n);
 	}
 	else
 	{
-	printf("%d is less than 6 and not 0\n", n);
+	printf("%d and is less than 6 and not 0\n", n);
 	}
 
 
