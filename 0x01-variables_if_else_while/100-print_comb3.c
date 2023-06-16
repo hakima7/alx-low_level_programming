@@ -13,7 +13,7 @@
  */
 
 int main(void)
-	int main(void)
+
 {
 	int digit1;
 	int digit2;
@@ -29,10 +29,9 @@ int main(void)
 	if (digit1 != '8' || digit2 != '9')
 	putchar(',');
 	putchar(' ')
-}
-}
-}
-putchar('\n');
-
-return (0);
+	}
+	}
+	}
+	putchar('\n');
+	return (0);
 }
