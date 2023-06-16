@@ -15,8 +15,7 @@
 int main(void)
 
 {
-	int d;
-	int p;
+	int d, p;
 
 	for (d = '0'; d <= '9'; d++)
 	{
