@@ -24,15 +24,15 @@ int main(void)
 
 	if (abs(n % 10) > 5)
 	{
-	printf("last digit is greater than 5\n");
+	printf("last digit and is greater than 5\n");
 	}
 	else if (abs(n % 10) == 0)
 	{
-	printf("last digit is 0\n");
+	printf("last digit and is 0\n");
 	}
 	else
 	{
-	printf("last digit is less than 6 and not 0\n");
+	printf("last digit and is less than 6 and not 0\n");
 	}
 
 	return (0);
