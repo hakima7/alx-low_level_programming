@@ -13,26 +13,26 @@
  */
 
 int main(void)
-
+	int main(void)
 {
-	int d, p;
+	int digit1;
+	int digit2;
 
-	for (d = '0'; d <= '9'; d++)
+	for (digit1 = '0'; digit1 <= '9'; digit1++)
 	{
-	for (d = p + 1; p <= '9'; p++)
+	for (digit2 = digit1 + 1; digit2 <= '9'; digit2++)
 	{
-	if (p != d)
+	if (digit1 != digit2)
 	{
-	putchar(d);
-	putchar(p);
-	if (d != '8' || p != '9')
-       	{
-		putchar(',');
-		putchar(' ');
-	}
-	}
-	}
-	}
-	putchar('\n');
-	return (0);
+	putchar(digit1);
+	putchar(digit2);
+	if (digit1 != '8' || digit2 != '9')
+	putchar(',');
+	putchar(' ')
+}
+}
+}
+putchar('\n');
+
+return (0);
 }
