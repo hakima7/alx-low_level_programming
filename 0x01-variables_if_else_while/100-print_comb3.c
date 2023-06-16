@@ -4,32 +4,27 @@
 
 #include <stdio.h>
 
-
-
 /**
  * main - Entry point
- * Return: Always (Success)
- *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 
 {
-	int digit1;
-	int digit2;
+	
+	int d, p;
 
-	for (digit1 = '0'; digit1 <= '8'; digit1++)
+	for (d = '0'; d < '9'; d++)
 	{
-	for (digit2 = digit1 + 1; digit2 <= '9'; digit2++)
+	if (p != d)
 	{
-	if (digit1 != digit2)
-	{
-	putchar(digit1);
-	putchar(digit2);
-	if (digit1 != '8' && digit2 != '9')	
-	putchar(',');
+	putchar(d);
+	putchar(p);
+	if (d == '8' && p == '9')
+	continue;
+	putchar(',')
 	putchar(' ');
-	}
 	}
 	}
 	putchar('\n');
