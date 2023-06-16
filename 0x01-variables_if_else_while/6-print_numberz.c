@@ -7,7 +7,7 @@
 
 
 /**
- * main - prints if number is positive, zero or negative
+ * main - Entry point
  * Return: Always (Success)
  *
  */
