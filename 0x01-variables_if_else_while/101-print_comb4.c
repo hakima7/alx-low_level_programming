@@ -23,6 +23,9 @@ int main(void)
 
 	for (c = b + 1; c <= '9'; c++)
 	{
+	putchar(a + '0');
+	putchar(b + '0');
+	putchar(c + '0');
 	{
 	putchar(a);
 	putchar(b);
