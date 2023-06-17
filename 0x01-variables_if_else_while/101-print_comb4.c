@@ -15,7 +15,7 @@ int main(void)
 	int a, b, c;
 	{
 
-	for (a ='0'; a <= '7'; a++)
+	for (a = '0'; a <= '7'; a++)
 	{
 
 	for (b = a + 1; b <= '8'; b++)
@@ -30,12 +30,13 @@ int main(void)
 	putchar(c);
 	if (a != 7 || b != 8 || c != 9)
 	putchar(',');
-        putchar(' ');
+	putchar(' ');
 	}
-        }
-        }
-        }
+	}
+	}
+	}
 	}	
 	putchar('\n');
-	return (0);
+	
+sh: 1: q: not found
 }
