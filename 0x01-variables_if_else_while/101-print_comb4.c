@@ -24,10 +24,11 @@ int main(void)
 	{
 	if ((b != a) != c)
 	{
-	puchtar(a);
-	puchtar(b);
+	putchar(a);
+	putchar(b);
 	putchar(c)
 	}
+        }
         }
         }	
 	putchar('\n');
