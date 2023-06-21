@@ -9,7 +9,7 @@
  * Return: Always 0.
  */
 
-int _isalpha(int c);
+int isalpha(int c);
 
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
     _putchar(r + '0');
     r = isalpha(108);
     _putchar(r + '0');
-    r = _isalpha(';');
+    r = isalpha(';');
     _putchar(r + '0');
     _putchar('\n');
     return (0);
