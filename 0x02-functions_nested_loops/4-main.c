@@ -1,5 +1,8 @@
 #include "main.h"
 
+#include <ctype.h>
+
+
 /**
  * main - check the code.
  *
