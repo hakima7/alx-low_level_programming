@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isalpha - checks for alphabetic character
+ * _isalpha - checks for letters puts 1 if input is a letter and 0 if not
  *
- * @c: The character to be checked
+ * @c: an ASCII char
  *
  * Return: 1 for alphabetic character or 0 for anything else
  */
@@ -16,6 +16,4 @@ int _isalpha(int c)
 	{
 		return (0);
 	}
-	_putchar('\n');
-	return isalpha(c);
 }
