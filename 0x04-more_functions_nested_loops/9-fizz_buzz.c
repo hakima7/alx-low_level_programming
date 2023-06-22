@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - prints a fizz program
+ * main - prints a Fizz Buzz program
  * Return: Alwayse 0 (Success)
  */
 
@@ -28,6 +28,10 @@ int main(void)
 	else
 	{
 		printf("%d ", i);
+	}
+	if (i != 100)
+	{
+		print(" ");
 	}
 	}
 	printf("\n");
