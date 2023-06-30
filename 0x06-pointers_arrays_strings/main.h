@@ -19,5 +19,6 @@ void print_buffer(char *b, int size);
 char *_strncpy(char *dest, char *src, int n);
 void print_array(int *a, int n);
 int _putchar(char c);
+int main(void);
 
 #endif /* MAIN_H */
