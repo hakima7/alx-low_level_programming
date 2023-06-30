@@ -1,9 +1,6 @@
 #include <stdio.h>
+#include "main.h"
 
-/*
- * This is the main function.
- * It serves as the entry point of the program.
- */
 int main(void)
 {
 	int n;
