@@ -1,17 +1,23 @@
 #include <stdio.h>
 
-/**
- * main - Entry point
- *
- * Return: Always 0
+/*
+ * This is the main function.
+ * It serves as the entry point of the program.
  */
-int main(void)
+
+int main(void);
 {
-	int a[5] = {0, 1, 2, 3, 4};
-	int *p = a + 2;
+	int n;
+	int a[5];
+	int *p;
 
-	p[-2] = 98;
+	a[2] = 1024;
+	p = &n;
 
-	printf("a[2] = %d\n", *(p));
+	/* Add your line of code here */
+	a[2] = *(&n + 7) - 4;
+
+	/* ...so that this prints 98\n */
+	printf("a[2] = %d\n", a[2]);
 	return (0);
 }
