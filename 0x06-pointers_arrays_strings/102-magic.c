@@ -1,5 +1,9 @@
 #include <stdio.h>
-#include "main.h"
+
+/**
+ * main_function is the starting point of program execution in C
+ * Return: 0 Success
+ */
 
 int main(void)
 {
