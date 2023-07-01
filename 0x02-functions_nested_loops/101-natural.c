@@ -1,4 +1,4 @@
-#include <stdoi.h>
+#include <stdio.h>
 
 /**
  * main - prints the sum of all multipples of 3 or 5 up to 1024
