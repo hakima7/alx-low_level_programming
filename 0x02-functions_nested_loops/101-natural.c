@@ -5,7 +5,7 @@
  * Return: Always (Success)
  */
 
-int man(void)
+int main(void)
 
 {
 	int i, z = 0;
@@ -19,5 +19,5 @@ int man(void)
 		i++;
 	}
 	printf("%d\n", z);
-	return (0):
+	return (0);
 }
