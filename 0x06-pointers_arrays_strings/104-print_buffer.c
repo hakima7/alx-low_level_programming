@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * print_buffer - Prints the content of a buffer.
  * @b: The buffer to print.
@@ -8,6 +9,7 @@
  * It prints 10 bytes per line
  * If size is 0 or less, it prints a new line only.
  */
+
 void print_buffer(char *b, int size)
 {
 	int i;
