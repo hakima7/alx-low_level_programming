@@ -2,7 +2,7 @@
 include "main.h"
 
 /**
- * _strpbek - Entry point
+ * _strpbrk - Entry point
  * @s: input
  * @accept: input
  * Return: Always 0(Success)
