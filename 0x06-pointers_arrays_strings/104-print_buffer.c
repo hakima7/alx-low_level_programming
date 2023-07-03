@@ -14,8 +14,7 @@ void print_buffer(char *b, int size)
 {
 	int i, j;
 
-
-	if (size <= 0) 
+	if (size <= 0)
 	{
 		printf("\n");
 		return;
@@ -25,7 +24,7 @@ void print_buffer(char *b, int size)
 	{
 		printf("%08x: ", i);
 
-		for (j = i; j < i + 10; j++) 
+		for (j = i; j < i + 10; j++)
 		{
 			if (j < size)
 				printf("%02x", b[j]);
