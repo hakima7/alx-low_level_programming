@@ -1,4 +1,3 @@
-#include "main.h"
 #include <string.h>
 /**
  * rev_string - reverse array
@@ -8,7 +7,7 @@
 void rev_string(char *n)
 {
 	int i = 0;
-	int j = 0;
+	int j = strlen(n) - 1;
 	char temp;
 
 	while (*(n + i) != '0')
