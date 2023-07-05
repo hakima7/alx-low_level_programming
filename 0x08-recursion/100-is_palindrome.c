@@ -13,11 +13,11 @@ int _strlen_recursion(char *s)
 		return (1 + _strlen_recursion(s + 1));
 }
 /**
- * compartor - compares each characted of the string
+ * comparator - compares each characted of the string
  * @s: string
  * @n1: smallest iterator
- * @n2: biggest iteretor
- * Return: .
+ * @n2: biggest iterator
+ * Return: 1 if the string is a palindrome, 0 otherwise
  */
 int comparator(char *s, int n1, int n2)
 {
