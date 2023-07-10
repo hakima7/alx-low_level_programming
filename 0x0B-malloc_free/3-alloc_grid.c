@@ -40,7 +40,7 @@ int **alloc_grid(int width, int height)
                         }
         }
 
-        for (k = 0; k < width; l++)
+        for (k = 0; k < height; l++)
         {
                 for (l = 0; l < width; l++)
                 {
