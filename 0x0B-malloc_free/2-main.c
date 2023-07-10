@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+char *str_concat(char *, char *);
+
 /**
  * main - check the code for ALX School students.
  *
