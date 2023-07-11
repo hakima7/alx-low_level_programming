@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 int word_len(char *str);
 int count_words(char *str);
@@ -25,13 +26,12 @@ int word_len(char *str)
 	return (len);
 }
 
-/*
- * count_words - counts he number of words contained a string
- * @str: the string to be dearched
+/**
+ * count_words - counts the number of words contained within a string
+ * @str: the string to be searched
  *
  * Return: the number of words contained within str
  */
-
 int count_words(char *str)
 {
 	int index = 0, words = 0, len = 0;
