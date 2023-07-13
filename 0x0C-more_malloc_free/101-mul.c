@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -61,7 +60,7 @@ int main(int argc, char *argv[])
 
 	s1 = argv[1];
 	s2 = argv[2];
-	if (argc != 3 || !is_digit(argv[1]) ||!is_digit(argv[2]))
+	if (argc != 3 || !is_digit(s1) ||!is_digit(s2))
 		errors();
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
@@ -90,11 +89,11 @@ int main(int argc, char *argv[])
 		if (result[i])
 			a = 1;
 		if (a)
-			_putchar(result[i] + '0');
+			putchar(result[i] + '0');
 	}
 	if (!a)
-		_putchar('0');
-	_putchar('\n');
+		putchar('0');
+	putchar('\n');
 	free(result);
 	return (0);
 }
