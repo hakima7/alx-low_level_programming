@@ -11,7 +11,7 @@
 int (*get_op_func(char*s))(int, int)
 {
         (void) s;
-        op_t op[s] = {
+        op_t ops[] = {
                 {"+", op_add},
                 {"-", op_sub},
                 {"*", op_mul},
