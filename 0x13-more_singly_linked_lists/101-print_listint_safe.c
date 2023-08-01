@@ -45,8 +45,8 @@ size_t looped_listint_len(const listint_t *head)
 		return (nodes);
 		}
 
-	tortoise = tortoise->next;
-	hare = (hare->next)->next;
+		tortoise = tortoise->next;
+		hare = (hare->next)->next;
 	}
 
 	return (0);
@@ -85,4 +85,3 @@ size_t print_listint_safe(const listint_t *head)
 
 	return (nodes);
 }
-
