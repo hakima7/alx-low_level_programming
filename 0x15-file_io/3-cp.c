@@ -35,10 +35,10 @@ void close_file(int fd)
 {
 	int c;
         c = close(fd);
-        if (c == -1)
-        {
-                dprintf(STDERR_FILENO, "Error: can't close fd %d\n", fd);
-                exit(100);
+	if (c == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: can't close fd %d\n", fd);
+		exit(100);
         }
 }
 
@@ -55,6 +55,7 @@ void close_file(int fd)
  * if file_to or file_from cannot be closed - exit code 100
  */
 int main(int argc, char *argv[])
+
 {
 	int from, to, r, w;
         char *buffer;
@@ -68,7 +69,7 @@ int main(int argc, char *argv[])
 	buffer = create_buffer(argv[2]);
         from = open(argv[1], O_RDONLY);
         r = read(from, buffer, 1024);
-        to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+	to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	do {
 		if (from == -1 || r == -1)
